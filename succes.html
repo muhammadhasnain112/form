@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Program</title>
+</head>
+<style>
+    body{
+        background-color: aquamarine;
+    }
+    h1{
+        text-align: center;
+        color: rebeccapurple;
+    }
+    h3{
+        font-size: 5vh;
+        color: blueviolet;
+    }
+    label{
+        font-size: 4vh;
+    }
+    .div1{
+        height: 20vh;
+       /* background-color: aqua; */
+    }
+    button{
+        height: 7vh;
+        width: 10vw;
+        background-color:blueviolet;
+        color: aliceblue;
+        margin-top: 2vh;
+        border: none;
+        border-radius: 5vw;
+    }
+</style>
+<body>
+    <h1>Welcome To My Store</h1>
+    
+    <div class="div1"> <h3>Select Shopping Mode</h3>
+    <input type="radio" name="" id="online" value="">
+    <label for="online">Online Shopping</label><br>
+    <input type="radio" name="" id="onsite" value="">
+    <label for="onsite">Onsite Shopping</label><br>
+</div>
+
+<h3>Select Products</h3>
+<input type="checkbox" id="tshirt" value="200">
+    <label for="tshirt">T-Shirt (200 Rs)</label><br>
+    
+    <input type="checkbox" id="paint" value="400">
+    <label for="paint">Paint (400 Rs)</label><br>
+    
+    <input type="checkbox" id="coat" value="500">
+    <label for="coat">Coat (500 Rs)</label><br>
+    
+    <button onclick="calculateTotal()">Calculate Total</button>
+    
+    <h3>Total Amount: <span id="totalAmount">0</span> Rs</h3>
+    
+    
+
+    
+    <script src="index.js">
+        
+    </script>
+</body>
+
+</html>
